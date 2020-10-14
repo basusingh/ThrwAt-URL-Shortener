@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2b5876</color>
+    <color name="colorPrimaryDark">#22465e</color>
+    <color name="colorAccent">#F8B195</color>
+    <color name="purple">#41436A</color>
+    <color name="maroon">#984063</color>
+    <color name="ochre">#FE9677</color>
+    <color name="grey_8080">#808080</color>
+    <color name="dark_grey">#2d2d33</color>
+    <color name="light_purple">#ececff</color>
+
+    <color name="gradient_red_cream">#BE7E80</color>
+    <color name="gradient_red_cream_dark">#9E6189</color>
+
+    <color name="home_gradient_1">#F67280</color>
+    <color name="home_gradient_1_1">#7b3940</color>
+    <color name="home_gradient_2">#C06c84</color>
+    <color name="home_gradient_2_2">#603642</color>
+    <color name="home_gradient_2_2_light">#8f727a</color>
+    <color name="home_gradient_3">#6C5B7B</color>
+    <color name="home_gradient_3_3">#403649</color>
+    <color name="home_gradient_4">#355C7D</color>
+    <color name="home_gradient_4_4">#1f374b</color>
+    <color name="home_gradient_5">#F8B195</color>
+    <color name="home_gradient_5_5">#946a59</color>
+
+    <color name="awesome_black">#3b4148</color>
+    <color name="white">#fff</color>
+    <color name="reddish_cream">#E19E9E</color>
+    <color name="black">#000000</color>
+    <color name="grey_f5f5">#f5f5f5</color>
+    <color name="grey_8282">#828282</color>
+    <color name="grey_d7d7">#d7d7d7</color>
+    <color name="grey_efef">#efefef</color>
+    <color name="blue_grey">#607D8B</color>
+    <color name="blue_grey_light">#7f97a2</color>
+    <color name="grey_fafa">#fafafa</color>
+    <color name="transparent_black">#99000000</color>
+    <color name="deep_blue">#0e6f9c</color>
+    <color name="deep_blue_dark">#07374e</color>
+
+    <color name="teal">#00695C</color>
+    <color name="cyan">#38b6ff</color>
+    <color name="pink">#FF4081</color>
+    <color name="grey_e2e2">#e2e2e2</color>
+    <color name="dark_red">#ff0000</color>
+    <color name="deep_pink">#f80759</color>
+    <color name="light_pink">#f2709c</color>
+    <color name="light_pink_deep">#a94e6d</color>
+    <color name="light_orange">#ff9472</color>
+    <color name="light_green">#A8CABA</color>
+    <color name="green">#4b8b4b</color>
+    <color name="bright_green">#00CD00</color>
+    <color name="light_green_dark">#758d82</color>
+    <color name="light_grey">#e9edf5</color>
+
+    <color name="rectangle_3_color">#ee1fee</color>
+    <color name="rectangle_4_color">#f6e489</color>
+</resources>
