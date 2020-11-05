@@ -1,7 +1,7 @@
 # ThrwAt-URL-Shortener
 Short any URL right within your Android app. This lightweight library uses powerful ThrwAt services to short and manages URLs. Links can be password protected and shows variety of stats to keep track of each user visiting your link.
 
-#Get Started
+# Get Started
 Install the library
 ```
 dependencies {
