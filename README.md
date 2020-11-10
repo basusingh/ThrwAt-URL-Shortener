@@ -188,7 +188,7 @@ new AsyncTask<Void, Void, Void>(){
                 }.execute();
 ```
 Get all tags of an URL
-(All tags are stored as JSON inside a single String variable. We provided the option to parse tags by default. See example.)
+(All tags are stored as JSON inside a single String variable. There is an option to parse the tags by default. See example.)
 ```
 @params
 URL_ID = URL id of the shorten URL to all its tags
