@@ -299,7 +299,7 @@ public class URLStatsItems implements Serializable {
     //Getter and Setter method available for each variable
 }
 ```
-[Example decoding premium stats] (https://gist.github.com/basusingh/bccf0e5bf9cc25d5dec08af2f4b32a1b)
+[Example decoding premium stats](https://gist.github.com/basusingh/bccf0e5bf9cc25d5dec08af2f4b32a1b)
 
 ## Managing User
 Get current user (User ID and API Key)
