@@ -330,9 +330,7 @@ public class ThrwAtURLManager {
     @SuppressLint("StaticFieldLeak")
     private void completeURLStatsFetchTask(final boolean result, final String message, final String stats, final String premium){
         if(result){
-            if(mList == null){
-                mList = new ArrayList<>();
-            }
+            mList = new ArrayList<>();
             new AsyncTask<Void, Boolean, Boolean>(){
                 @Override
                 protected Boolean doInBackground(Void... p){
@@ -585,11 +583,12 @@ public class ThrwAtURLManager {
     }
 
     public void updatePassword(String urlId, String password, onURLPasswordUpdateListener var2){
+        onURLPasswordUpdateListener = var2;
         if(password.isEmpty()){
+            completeURLUpdatePasswordTask(false, "Invalid password");
             return;
         }
         user = ThrwAt.getInstance(mContext).getCurrentUser();
-        onURLPasswordUpdateListener = var2;
         updateURLPasswordOnServer(urlId, password);
     }
 

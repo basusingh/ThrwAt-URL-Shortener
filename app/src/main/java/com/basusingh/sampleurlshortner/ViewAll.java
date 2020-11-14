@@ -7,9 +7,12 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.annotation.SuppressLint;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.util.Log;
 
 import com.basusingh.throwat.ThrwAtURLManager;
+import com.basusingh.throwat.ThrwAtURLStatsFetchTask;
 import com.basusingh.throwat.db.URLItems;
+import com.basusingh.throwat.onURLStatsFetchCompleteListener;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -29,7 +32,8 @@ public class ViewAll extends AppCompatActivity {
         recyclerView = findViewById(R.id.recyclerView);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
-        loadItem();
+        //loadItem();
+        loadStats();
     }
 
     @SuppressLint("StaticFieldLeak")
@@ -46,5 +50,15 @@ public class ViewAll extends AppCompatActivity {
                 recyclerView.setAdapter(mAdapter);
             }
         }.execute();
+    }
+
+    private void loadStats(){
+        ThrwAtURLManager.getInstance(getApplicationContext()).getURLStats("188", new onURLStatsFetchCompleteListener() {
+            @Override
+            public void onComplete(ThrwAtURLStatsFetchTask task) {
+                Log.e("Message", task.getMessage());
+                Log.e("Size", String.valueOf(task.getURLStats().size()));
+            }
+        });
     }
 }
